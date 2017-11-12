@@ -5,6 +5,7 @@ Deze worden opgeslagen in een database.
 Zoek functie om aantekeningen op te halen en te displayen.
 
 Subdoel: pagina maken met knoppen voor sign in en sign up
+subdoel: formulier maken voor Create new account
 -->
 <html>
     <head>
