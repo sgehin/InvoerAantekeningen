@@ -1,0 +1,54 @@
+IDnr       : 
+Username   : 
+Firstname  : 
+Lasttname  : 
+E-mail     : 
+-----------------------------------------
+IDnr       : bas
+Username   : De grbuiker
+Firstname  : bas
+Lasttname  : Gehin
+E-mail     : brt.flink@gmail.com
+-----------------------------------------
+IDnr       : 
+Username   : 
+Firstname  : 
+Lasttname  : 
+E-mail     : 
+-----------------------------------------
+IDnr       : bas
+Username   : fsdf
+Firstname  : dfsd
+Lasttname  : sfsd
+E-mail     : a.smit@gmail.com
+-----------------------------------------
+IDnr       : 
+Username   : 
+Firstname  : 
+Lasttname  : 
+E-mail     : 
+-----------------------------------------
+IDnr       : bas
+Username   : De grbuiker
+Firstname  : Bas
+Lasttname  : Gehin
+E-mail     : brt.flink@gmail.com
+-----------------------------------------
+IDnr       : 
+Username   : 
+Firstname  : 
+Lasttname  : 
+E-mail     : 
+-----------------------------------------
+IDnr       : 
+Username   : 
+Firstname  : 
+Lasttname  : 
+E-mail     : 
+-----------------------------------------
+IDnr       : 
+Username   : 
+Firstname  : 
+Lasttname  : 
+E-mail     : 
+-----------------------------------------
