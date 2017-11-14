@@ -16,25 +16,25 @@ subdoel: input wegschrijven naar twee verschillende tabellen in de database name
         <script src="myscripts.js"></script>
         <title>myNotes</title>
         <style>
-           
-            
+
         </style>
         <script>
-                        }
+
         </script>
-        
+
     </head>
     <body>
+
         <div>
             <table>
                 <tr>
-                  <td >
-                    <img src="img/ogo bas.png" width="200px" Height="200px">
-                  </td>
-                  <td></td>
-                  <td>
-                      <h1 id="banner">MyNotes</h1>
-                  </td>    
+                    <td >
+                        <img src="img/ogo bas.png" width="130px" Height="130px">
+                    </td>
+                    <td></td>
+                    <td>
+                        <h1 id="banner">MyNotes</h1>
+                    </td>    
                   <?php
                   for ($x=1;$x<4;$x++){
                       echo "<td></td>"; 
