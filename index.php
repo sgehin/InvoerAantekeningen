@@ -6,6 +6,7 @@ Zoek functie om aantekeningen op te halen en te displayen.
 
 Subdoel: pagina maken met knoppen voor sign in en sign up
 subdoel: formulier maken voor Create new account
+subdoel: input wegschrijven naar twee verschillende tabellen in de database namelijke user en personalia (zie CreateAccount.php)
 -->
 <html>
     <head>
