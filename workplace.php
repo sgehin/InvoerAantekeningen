@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<!--
-Doel website maken waar je op inlog en aantekeningen kunt invoeren op je personlijke pagina.
-Deze worden opgeslagen in een database. 
-Zoek functie om aantekeningen op te halen en te displayen.
-
-Subdoel: pagina maken met knoppen voor sign in en sign up
-subdoel: formulier maken voor Create new account
-subdoel: input wegschrijven naar twee verschillende tabellen in de database namelijke user en personalia (zie CreateAccount.php)
-subdoel: improving layout setup
--->
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,6 +26,27 @@ subdoel: improving layout setup
             <li><a href=CreateAccount.php>Sign up</a></li>
             <li><a href=workplace.php>Workplace</a></li>
         </ul>
+    <colum><div class="row">
+            <div class="column side">
+                <table id=index>
+                    <tr>
+                        <td>
+                            <h2>index</h2>
+                            <p>Lorem ipsum </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="column middle">
+                <table id=index2>
+                    <tr>
+                        <td>
+                <h2>invoerscherm</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                 </td>
+                    </tr>
+                </table>
+            </div>
 
-    </body>
-</html>
+            </body>
+            </html>

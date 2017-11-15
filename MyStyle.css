@@ -4,6 +4,9 @@
 
 body {
     margin: 0;
+    background-image: url(img/ruitpatroon.jpg);
+   height: 10px;
+    
 }
 
 /* Style the header */
@@ -48,4 +51,29 @@ h1 {
 }
 #knop {
     background-color: #cccc00;
+}
+table {
+    background-color: #ffffcc;
+}
+#index{
+    width: 350px;
+}
+#index{
+    width: 1590px;
+}
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+    padding-left: 10px;
+    
+}
+
+/* Middle column */
+.column.middle {
+    width: 75%;
+    padding-left: 10px;
 }

@@ -23,7 +23,7 @@
             <li><a class="active" href=index.php>Home</a></li>
             <li><a href=login.php>Sign in</a></li>
             <li><a href=CreateAccount.php>Sign up</a></li>
-            <li><a href="#about">Workplace</a></li>
+            <li><a href=workplace.php>Workplace</a></li>
         </ul>
 
       
@@ -33,12 +33,12 @@
                     <pre>
                             <form method="GET">
                                 <br><br>
-                                                <b>login into account:<br>
-                                                                 <input type="hidden" name="hidden" value="bas">                         
-                            Username:   <input type="text" name="Uname" value="" >     password:   <input type="password" name="password" value=""><br>
+                <b>login into account:<br>
+<input type="hidden" name="hidden" value="bas">                         
+    Username: <input type="text" name="Uname" value="" >   password: <input type="password" name="password" value="">  <br>
                                                     
-                                        <input id="knop" type="submit">                                  <button id="knop" type="submit" formaction="index.php">back</button>     
-                            </form>
+              <input id="knop" type="submit">      <button id="knop" type="submit" formaction="index.php">back</button>     
+                    </form>
                                                           
                     </pre>
                 </td>

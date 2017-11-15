@@ -23,22 +23,22 @@
             <li><a class="active" href=index.php>Home</a></li>
             <li><a href=login.php>Sign in</a></li>
             <li><a href=CreateAccount.php>Sign up</a></li>
-            <li><a href="#about">Workplace</a></li>
+            <li><a href=workplace.php>Workplace</a></li>
         </ul>
         <table>
             <tr>
-                <td>
+                <td>    
                     <pre>
                             <form method="GET">
                                 <br><br>
-                                                <b>Create a new account:<br>
+                  <b>Create a new account:<br>
                                                                  <input type="hidden" name="hidden" value="bas">                         
-                            Username:   <input type="text" name="Uname" value="" >     password:   <input type="password" name="password" value=""><br>
-                            Firstname:  <input type="text" name="fname" value="" ><br> 
-                            Lastname:   <input type="text" name="lname" value="" ><br> 
-                            E-mail:     <input type="email" name="usremail" ></b><br>
+    Username:   <input type="text" name="Uname" value="" >      password:   <input type="password" name="password" value=""><br>
+    Firstname:  <input type="text" name="fname" value="" ><br> 
+    Lastname:   <input type="text" name="lname" value="" ><br> 
+    E-mail:     <input type="email" name="usremail" ></b><br>
                             
-                                        <input id="knop" type="submit">       <button id="knop" type="submit" formaction="index.php">back</button>
+                <input id="knop" type="submit">       <button id="knop" type="submit" formaction="index.php">back</button>
                             </form>
                                                              
                     </pre>
