@@ -1,44 +1,51 @@
-div {              
-    background-color: #69a923;
-    background-image: url(img/bannergreen.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat
-    }
-#banner{
-        font-family: Verdana, Times, serif;
-        font-size: 400%;
-        color: white;
-        }
-td{
-   width: 100px
-  }
-.button {
-         background-color: #4CAF50;
-         border: none;
-         color: white;
-         padding: 15px 32px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 16px;
-         margin: 4px 2px;
-         cursor: pointer;
-        }
-input {
-       font-weight: bold;
-       padding: 12px 20px;
-       margin: 8px 0;
-       box-sizing: border-box;
-       border: 2px solid red;
-       border-radius: 4px;
-       background-color: #4CAF50;
-      }
-#knop    {
-       font-weight: bold;
-       padding: 12px 20px;
-       margin: 8px 0;
-       box-sizing: border-box;
-       border: 2px solid red;
-       border-radius: 4px;
-       background-color: #4CAF50;
-      }      
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #cccc00;
+    padding: 10px;
+    text-align: center;
+    height:90px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+#knop {
+    background-color: #cccc00;
+}

@@ -7,12 +7,14 @@ Zoek functie om aantekeningen op te halen en te displayen.
 Subdoel: pagina maken met knoppen voor sign in en sign up
 subdoel: formulier maken voor Create new account
 subdoel: input wegschrijven naar twee verschillende tabellen in de database namelijke user en personalia (zie CreateAccount.php)
+subdoel: improving layout setup
 -->
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="img/logo_bas.png" />
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link rel="stylesheet" type="text/css" href="MyStyle.css">
         <script src="myscripts.js"></script>
         <title>myNotes</title>
         <style>
@@ -24,38 +26,16 @@ subdoel: input wegschrijven naar twee verschillende tabellen in de database name
 
     </head>
     <body>
-
-        <div>
-            <table>
-                <tr>
-                    <td >
-                        <img src="img/ogo bas.png" width="130px" Height="130px">
-                    </td>
-                    <td></td>
-                    <td>
-                        <h1 id="banner">MyNotes</h1>
-                    </td>    
-                  <?php
-                  for ($x=1;$x<4;$x++){
-                      echo "<td></td>"; 
-                  }
-                  ?>
-                  <td><form action="Login.php"><input type="submit" class="button" value="sign in"></form></td><br>
-                    <td></td><br>
-                    <td><form action="CreateAccount.php"><input type="submit" class="button" value="sign up"></form></td><br>
-                </tr>
-            </table>
+        <div class="header">
+            <h1>MyNotes</h1>
         </div>
-        <table>
-            <tr>
-                <td>
-                    <pre>
 
-                                                           
-                    </pre>
-                </td>
-            </tr>
-        </table>
-           
+        <ul>
+            <li><a class="active" href=index.php>Home</a></li>
+            <li><a href=login.php>Sign in</a></li>
+            <li><a href=CreateAccount.php>Sign up</a></li>
+            <li><a href="#about">Workplace</a></li>
+        </ul>
+
     </body>
 </html>
