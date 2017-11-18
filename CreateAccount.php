@@ -11,18 +11,34 @@
         <style>
 
         </style>
-        <script>function validate() {
-            alert ("in functie validate");
-            var un = document.getElementById("username").value;
-            alert(un + "un is leeg");
-            var pw = document.getElementById("password").value;
-            alert(pw +" pw = leeg");
-            if (un = "" && pw = "") {
-                   alert("all fields are empty");
-                    return false;
-                } else {
-                    return true;
+        <script>
+            function validate(form) {
+                fail = validateUname(form.Uname.value)
+                fail += validatepassword(form.password.value)
+                fail += validatefname(form.fname.value)
+                fail += validatelname(form.lname.value)
+                fail += validateusremail(form.usremail.value)
+                if (fail == "")
+                    return true
+                else {
+                    alert(fail)
+                    return false       
                 }
+            }
+            function validateUname(field) {
+                return(field == "") ? "No username was entered.\n" : ""
+            }
+            function validatepassword(field) {
+                return(field == "") ? "No password was entered.\n" : ""
+            }
+            function validatefname(field) {
+                return(field == "") ? "No firstname was entered.\n" : ""
+            }
+            function validatelname(field) {
+                return(field == "") ? "No lasttname was entered.\n" : ""
+            }
+            function validateusremail(field) {
+                return(field == "") ? "No e-mail was entered.\n" : ""
             }
         </script>
 
@@ -41,10 +57,10 @@
 
         <div class="LogForm">
 
-            <form action="CreateAccount.php" method="POST" onsubmit="validate()">
+            <form action="CreateAccount.php" method="POST" onsubmit=" return validate(this)">
                 <br><br>
                 <b>Create a new account:</b><br><br>    
-                <input type="text" placeholder="username" name="Uname" value="" >
+                <input type="text" placeholder="username" name="Uname" value="">
                 <br><br>
                 <input type="password" placeholder="password" name="password" value="">
                 <br><br>
@@ -61,13 +77,6 @@
             <br>  
         </div>
         <?php
-        // connecten met database aantekening_bas
-//        $hostname = 'localhost';
-//        $databasenaam = 'aantekening_bas';
-//        $username = 'root';
-//        $password = '';
-//        //object connectie maken
-//        $conn = new mysqli($hostname, $username, $password, $databasenaam);
         $conn = connectDB();
         // checken of data ingevult is
 

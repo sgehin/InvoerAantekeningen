@@ -16,7 +16,6 @@ Ssubdoel: improving layout setup
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="img/logo_bas.png" />
         <link rel="stylesheet" type="text/css" href="MyStyle.css">
-        <script src="myscripts.js"></script>
         <title>myNotes</title>
         <style>
 
