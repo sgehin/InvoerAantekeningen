@@ -85,14 +85,21 @@
         if (isset($_REQUEST['Uname']) && isset($_REQUEST['password'])) {
             $uname = mysql_fix_string($conn, $_REQUEST['Uname']);
             $password = mysql_fix_string($conn, $_REQUEST['password']);
+                                                                              // placeholder geeft foutmelding. weet niet waarom daarom gedeactiveerd
+           /* $stmt = $conn->prepare('INSERT INTO `user` VAlUES(?,?)');
+            $stmt->bind_param('ss',$uname,$password);
+            $stmt->execute();
+            printf("%d Row inserted.\n", $stmt->affected_rows);
+            $stmt->close();
+           */ 
             
-            // variabele vullen query string om input weg te schrijven naar database
             $sql = "INSERT INTO `user`(`username`, `password`)VALUES('" . $uname . "','" . $password . "')";
-            $conn->query($sql);                                             // uitvoeren query string voor tabel user
+            $conn->query($sql);                                             
             $sql2 = "INSERT INTO `personalia`(`Firstname`, `Lastname`,`E-mail`)VALUES('" . $_REQUEST['fname'] . "','" . $_REQUEST['lname'] . "','" . $_REQUEST['usremail'] . "')";
-            $conn->query($sql2);                                            // uitvoeren query string voor tabel personalia
+            $conn->query($sql2);                                            
         
             echo "<div class =LogForm2>Account created<div>";
+            $conn->close();
         }
         
         

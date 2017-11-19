@@ -32,7 +32,7 @@
                     <tr>
                         <td>
                             <h2>index</h2>
-                            <p>Lorem ipsum </p>
+                            <p>hier komt een dropdown met onderwerpen </p>
                         </td>
                     </tr>
                 </table>
@@ -42,7 +42,7 @@
                     <tr>
                         <td>
                 <h2>invoerscherm</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                <p>hier worden de aantekeningen ingevoerd en gesubmit</p>
                  </td>
                     </tr>
                 </table>
