@@ -80,10 +80,14 @@
         <?php
         $conn = connectDB();
         // checken of data ingevult is
+        
 
         if (isset($_REQUEST['Uname']) && isset($_REQUEST['password'])) {
+            $uname = mysql_fix_string($conn, $_REQUEST['Uname']);
+            $password = mysql_fix_string($conn, $_REQUEST['password']);
+            
             // variabele vullen query string om input weg te schrijven naar database
-            $sql = "INSERT INTO `user`(`username`, `password`)VALUES('" . $_REQUEST['Uname'] . "','" . $_REQUEST['password'] . "')";
+            $sql = "INSERT INTO `user`(`username`, `password`)VALUES('" . $uname . "','" . $password . "')";
             $conn->query($sql);                                             // uitvoeren query string voor tabel user
             $sql2 = "INSERT INTO `personalia`(`Firstname`, `Lastname`,`E-mail`)VALUES('" . $_REQUEST['fname'] . "','" . $_REQUEST['lname'] . "','" . $_REQUEST['usremail'] . "')";
             $conn->query($sql2);                                            // uitvoeren query string voor tabel personalia
