@@ -11,7 +11,7 @@
 
     </style>
     <script>
-
+        
     </script>
 </head>
 <body>
@@ -34,11 +34,11 @@
             <input class="knop" type="submit" value="Submit">
             <br><br>
         </form>
-        <button class="knop" onclick="linken()">back</button>
+        <button class="knop" onclick="document.location ='index.php'">back</button>
         <br>
     </div>
-    <?php
-    login()
-    ?>
+    <?php login();?>
+    
+        
 </body>
 </html>

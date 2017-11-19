@@ -20,6 +20,7 @@
                 fail += validateusremail(form.usremail.value)
                 if (fail == "")
                     return true
+                    
                 else {
                     alert(fail)
                     return false       
@@ -73,7 +74,7 @@
                 <input class="knop" type="submit" value="Submit">
                 <br><br>   
             </form>
-            <button class="knop" onclick="linken()">back</button>
+            <button class="knop" onclick="document.location ='Login.php'">back</button>
             <br>  
         </div>
         <?php
@@ -86,7 +87,11 @@
             $conn->query($sql);                                             // uitvoeren query string voor tabel user
             $sql2 = "INSERT INTO `personalia`(`Firstname`, `Lastname`,`E-mail`)VALUES('" . $_REQUEST['fname'] . "','" . $_REQUEST['lname'] . "','" . $_REQUEST['usremail'] . "')";
             $conn->query($sql2);                                            // uitvoeren query string voor tabel personalia
+        
+            echo "<div class =LogForm2>Account created<div>";
         }
+        
+        
         ?> 
     </body>
 </html>

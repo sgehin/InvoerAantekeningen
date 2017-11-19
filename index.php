@@ -33,7 +33,6 @@ Ssubdoel: improving layout setup
                 <li><a class="active" href=index.php>Home</a></li>
                 <li><a href=login.php>Sign in</a></li>
                 <li><a href=CreateAccount.php>Sign up</a></li>
-                <li><a href=workplace.php>Workplace</a></li>
             </ul>
         </nav>
 
