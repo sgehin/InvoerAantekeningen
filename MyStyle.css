@@ -4,18 +4,24 @@
 
 body {
     margin: 0;
-    background-image: url(img/ruitpatroon.jpg);
-    height: 10px;
+    background-image: url(img/bleu1.jpg);
+     height: auto;
+    width: 100%;
+    //height: 10px;
 
 }
 
 /* Style the header */
 .header {
-    background-color: #cccc00;
-    padding: 10px;
+    opacity: 0.9;
+    background-color: #A3CEF0;    
+    padding: 15px;
     text-align: center;
-    height:90px;
+    height:110px;
 
+}
+#head{
+    color: #030F29;
 }
 
 /* NavBAr */
@@ -24,7 +30,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #0D2144;
 }
 
 li {
@@ -32,6 +38,7 @@ li {
 }
 
 li a {
+    
     display: block;
     color: white;
     text-align: center;
@@ -40,16 +47,24 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #1D3E71;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #FFCC48;
+}
+#spaceline{
+    height: 35px;   
 }
 
 
 h1 {
+    color: white;
     font-size: 40px;
+    margin: auto;
+}
+h2 {
+    color: white;
 }
 .knop {
     background-color: #cccc00;
@@ -63,20 +78,54 @@ h1 {
     width: 1590px;
 }
 .column {
+    
     float: left;
 }
 
-/* Left and right column */
+/* Left mid and right column */
 .column.side {
-    width: 25%;
+    
+    opacity: 0.5;
+    background-color: #ffffcc;
+    width: 23%;
+    height: 550px;
+    margin: 5px;
     padding-left: 10px;
+    align-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    border: 5px solid #0D2144;
+    
 
 }
 
 /* Middle column */
 .column.middle {
-    width: 75%;
+    opacity: 0.7;
+    background-color: #ffffcc;
+    width: 53%;
+    height: 550px;
+    margin: 5px;
     padding-left: 10px;
+    align-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    border: 5px solid #0D2144;
+    
+}
+/* right column */
+.column.right {
+    opacity: 0.5;
+    background-color: #ffffcc;
+    width: 22%;
+    height: 550px;
+    margin: 5px;
+    padding-left: 10px;
+    align-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    border: 5px solid #0D2144;
+    
 }
 /* form */
 .LogForm {

@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="img/logo_bas.png" />
         <link rel="stylesheet" type="text/css" href="MyStyle.css">
-        <script src="myscripts.js"></script>
-        <title>myNotes</title>
+        <script src="headscript.js"></script>
+        <title>@ YOUR SERVICE</title>
         <style>
 
         </style>
@@ -17,22 +17,24 @@
     </head>
     <body>
         <div class="header">
-            <h1>MyNotes</h1>
+            <h1 id="head">@ YOUR SERVICE</h1>
+            <h2 id="head">username</h2>
         </div>
-
         <ul>
             <li><a class="active" href=index.php>Home</a></li>
-            <li><a href=login.php>Sign in</a></li>
-            <li><a href=CreateAccount.php>Sign up</a></li>
             <li><a href=workplace.php>Workplace</a></li>
-        </ul>
+            <li><a href=login.php>Sign in</a></li>
+            <li><a href=createAccount.php>Sign up</a></li>    
+        </ul>       
+        <div id="spaceline">
+        </div>
     <colum><div class="row">
             <div class="column side">
                 <table id=index>
                     <tr>
                         <td>
-                            <h2>index</h2>
-                            <p>hier komt een dropdown met onderwerpen </p>
+                            <h3>reserved</h3>
+                            <p color="white">datum ect </p>
                         </td>
                     </tr>
                 </table>
@@ -41,8 +43,18 @@
                 <table id=index2>
                     <tr>
                         <td>
-                <h2>invoerscherm</h2>
+                <h3>invoerscherm</h3>
                 <p>hier worden de aantekeningen ingevoerd en gesubmit</p>
+                 </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="column right">
+                <table id=index2>
+                    <tr>
+                        <td>
+                <h3>zoekscherm</h3>
+                <p>zoek items</p>
                  </td>
                     </tr>
                 </table>

@@ -5,25 +5,27 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="img/logo_bas.png" >
     <link rel="stylesheet" type="text/css" href="MyStyle.css">
-    <script  src="Headscript.js"></script>
-    <title>myNotes</title>
+    <script  src="headscript.js"></script>
+    <title>@ YOUR SERVICE</title>
     <style>
 
     </style>
     <script>
-        
+
     </script>
 </head>
 <body>
     <div class="header">
-        <h1>MyNotes</h1>
+        <h1 id="head">@ YOUR SERVICE</h1>   
     </div>
     <ul>
+        <li><a class="active" href=index.php>Home</a></li>
+        <li><a href=workplace.php>Workplace</a></li>
         <li><a href=login.php>Sign in</a></li>
-        <li><a href=CreateAccount.php>Sign up</a></li>
+        <li><a href=createAccount.php>Sign up</a></li>
     </ul>
     <div class="LogForm"> 
-        <form method="POST" action="Login.php">
+        <form method="POST" action="login.php">
             <br><br>
             <b>Login into your account:</b>
             <br><br> 
@@ -34,11 +36,11 @@
             <input class="knop" type="submit" value="Submit">
             <br><br>
         </form>
-        <button class="knop" onclick="document.location ='index.php'">back</button>
+        <button class="knop" onclick="home()">back</button>
         <br>
     </div>
-    <?php login();?>
-    
-        
+    <?php login(); ?>
+
+
 </body>
 </html>
