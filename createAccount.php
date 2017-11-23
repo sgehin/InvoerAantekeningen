@@ -4,7 +4,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="img/logo_bas.png" />
+        <link rel="shortcut icon" href="img/inlogpic.png">
         <link rel="stylesheet" type="text/css" href="MyStyle.css">
         <script  src="headscript.js"></script>
         <title>@ YOUR SERVICE</title>

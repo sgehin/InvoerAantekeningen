@@ -3,13 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/InvoerAantekeningen/Login.php</file>
             <file>file:/C:/xampp/htdocs/InvoerAantekeningen/workplace.php</file>
-            <file>file:/C:/xampp/htdocs/InvoerAantekeningen/Headscript.js</file>
             <file>file:/C:/xampp/htdocs/InvoerAantekeningen/general.php</file>
             <file>file:/C:/xampp/htdocs/InvoerAantekeningen/MyStyle.css</file>
+            <file>file:/C:/xampp/htdocs/InvoerAantekeningen/headscript.js</file>
+            <file>file:/C:/xampp/htdocs/InvoerAantekeningen/createAccount.php</file>
             <file>file:/C:/xampp/htdocs/InvoerAantekeningen/index.php</file>
-            <file>file:/C:/xampp/htdocs/InvoerAantekeningen/CreateAccount.php</file>
+            <file>file:/C:/xampp/htdocs/InvoerAantekeningen/login.php</file>
         </group>
     </open-files>
 </project-private>
